@@ -1,0 +1,131 @@
+{
+  // UI settings
+  "workbench.colorTheme": "GitHub Dark Default",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.startupEditor": "none",
+  "workbench.editor.empty.hint": "hidden",
+  "explorer.confirmDelete": false,
+  // Editor settings
+  "editor.wordWrap": "on",
+  "editor.accessibilitySupport": "off",
+  "editor.suggestSelection": "first",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.guides.bracketPairs": true,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.unicodeHighlight.ambiguousCharacters": true,
+  "editor.largeFileOptimizations": true,
+  "editor.linkedEditing": true,
+  "editor.inlineSuggest.enabled": true,
+  // File settings
+  "files.autoSave": "afterDelay",
+  // Terminal settings
+  "terminal.integrated.defaultProfile.windows": "Command Prompt",
+  "terminal.integrated.defaultProfile.linux": "bash",
+  // Git settings
+  "git.enableSmartCommit": true,
+  "git.autofetch": true,
+  "git.confirmSync": false,
+  "git.ignoreRebaseWarning": true,
+  "git.openRepositoryInParentFolders": "never",
+  // Language-specific settings
+  "[c]": {
+    "editor.defaultFormatter": "ms-vscode.cpptools",
+    "editor.formatOnType": true,
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true
+  },
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.python",
+    "editor.formatOnType": true,
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "editor.formatOnSaveMode": "modifications"
+  },
+  "[go]": {
+    "editor.defaultFormatter": "golang.go",
+    "editor.formatOnType": true,
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnType": true,
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnType": true,
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true
+  },
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features",
+    "editor.formatOnType": true,
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true
+  },
+  "[css]": {
+    "editor.defaultFormatter": "vscode.css-language-features",
+    "editor.formatOnType": true,
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnType": true,
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnType": true,
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true
+  },
+  "[yaml]": {
+    "editor.defaultFormatter": "redhat.vscode-yaml",
+    "editor.formatOnType": true,
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "editor.formatOnSaveMode": "modifications"
+  },
+  "[dockerfile]": {
+    "editor.defaultFormatter": "ms-azuretools.vscode-docker",
+    "editor.formatOnType": true,
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "editor.formatOnSaveMode": "modifications"
+  },
+  "[terraform]": {
+    "editor.defaultFormatter": "hashicorp.terraform",
+    "editor.formatOnType": true,
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "editor.formatOnSaveMode": "modifications"
+  },
+  // Emmet settings
+  "gopls": {
+    "formatting.gofumpt": true,
+    "ui.semanticTokens": true
+  },
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  // Copilot settings
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": true,
+    "markdown": true,
+    "scminput": true
+  },
+  "yaml.schemas": {
+    "file:///home/prasad89/.vscode/extensions/docsmsft.docs-yaml-1.0.1/dist/toc.schema.json": "/toc\\.yml/i"
+  },
+  "vs-kubernetes": {
+    "vs-kubernetes.knownKubeconfigs": ["/home/prasad89/ALTOS/config-eks"],
+    "vs-kubernetes.kubeconfig": "/home/prasad89/ALTOS/config-eks",
+    "vscode-kubernetes.minikube-path-linux": "/home/prasad89/.local/state/vs-kubernetes/tools/minikube/linux-amd64/minikube"
+  }
+}
