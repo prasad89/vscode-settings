@@ -1,33 +1,29 @@
 {
-  // UI settings
+  // Workbench settings
   "workbench.colorTheme": "GitHub Dark Default",
   "workbench.iconTheme": "material-icon-theme",
+  "workbench.productIconTheme": "material-product-icons",
   "workbench.startupEditor": "none",
-  "workbench.editor.empty.hint": "hidden",
-  "explorer.confirmDelete": false,
   // Editor settings
   "editor.wordWrap": "on",
-  "editor.accessibilitySupport": "off",
-  "editor.suggestSelection": "first",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
   "editor.guides.bracketPairs": true,
   "editor.bracketPairColorization.enabled": true,
   "editor.unicodeHighlight.ambiguousCharacters": true,
-  "editor.largeFileOptimizations": true,
-  "editor.linkedEditing": true,
-  "editor.inlineSuggest.enabled": true,
-  // File settings
+  // Files settings
   "files.autoSave": "afterDelay",
   // Terminal settings
   "terminal.integrated.defaultProfile.windows": "Command Prompt",
   "terminal.integrated.defaultProfile.linux": "bash",
-  // Git settings
+  // Git/ GitHub settings
   "git.enableSmartCommit": true,
   "git.autofetch": true,
   "git.confirmSync": false,
+  "githubPullRequests.pullBranch": "always",
   "git.ignoreRebaseWarning": true,
   "git.openRepositoryInParentFolders": "never",
+  "githubPullRequests.createOnPublishBranch": "ask",
   // Language-specific settings
   "[c]": {
     "editor.defaultFormatter": "ms-vscode.cpptools",
@@ -36,7 +32,7 @@
     "editor.formatOnSave": true
   },
   "[python]": {
-    "editor.defaultFormatter": "ms-python.python",
+    "editor.defaultFormatter": "ms-python.autopep8",
     "editor.formatOnType": true,
     "editor.formatOnPaste": true,
     "editor.formatOnSave": true,
@@ -48,41 +44,14 @@
     "editor.formatOnPaste": true,
     "editor.formatOnSave": true
   },
-  "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.formatOnType": true,
-    "editor.formatOnPaste": true,
-    "editor.formatOnSave": true
-  },
-  "[javascriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.formatOnType": true,
-    "editor.formatOnPaste": true,
-    "editor.formatOnSave": true
-  },
-  "[html]": {
-    "editor.defaultFormatter": "vscode.html-language-features",
-    "editor.formatOnType": true,
-    "editor.formatOnPaste": true,
-    "editor.formatOnSave": true
-  },
-  "[css]": {
-    "editor.defaultFormatter": "vscode.css-language-features",
-    "editor.formatOnType": true,
-    "editor.formatOnPaste": true,
-    "editor.formatOnSave": true
-  },
   "[json]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.defaultFormatter": "vscode.json-language-features",
     "editor.formatOnType": true,
     "editor.formatOnPaste": true,
     "editor.formatOnSave": true
   },
   "[jsonc]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.formatOnType": true,
-    "editor.formatOnPaste": true,
-    "editor.formatOnSave": true
+    "editor.defaultFormatter": "vscode.json-language-features"
   },
   "[yaml]": {
     "editor.defaultFormatter": "redhat.vscode-yaml",
@@ -110,9 +79,6 @@
     "formatting.gofumpt": true,
     "ui.semanticTokens": true
   },
-  "emmet.includeLanguages": {
-    "javascript": "javascriptreact"
-  },
   // Copilot settings
   "github.copilot.enable": {
     "*": true,
@@ -120,12 +86,4 @@
     "markdown": true,
     "scminput": true
   },
-  "yaml.schemas": {
-    "file:///home/prasad89/.vscode/extensions/docsmsft.docs-yaml-1.0.1/dist/toc.schema.json": "/toc\\.yml/i"
-  },
-  "vs-kubernetes": {
-    "vs-kubernetes.knownKubeconfigs": ["/home/prasad89/ALTOS/config-eks"],
-    "vs-kubernetes.kubeconfig": "/home/prasad89/ALTOS/config-eks",
-    "vscode-kubernetes.minikube-path-linux": "/home/prasad89/.local/state/vs-kubernetes/tools/minikube/linux-amd64/minikube"
-  }
 }
